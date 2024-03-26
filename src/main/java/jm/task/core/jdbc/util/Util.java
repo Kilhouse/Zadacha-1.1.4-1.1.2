@@ -10,9 +10,7 @@ public class Util {
     private static final String URL_KEY = "db.url";
 
 
-
-
-    private Util() {
+    public Util() {
     }
 
     public static Connection getConnection() throws SQLException, RuntimeException {
